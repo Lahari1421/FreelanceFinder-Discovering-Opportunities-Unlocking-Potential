@@ -1,0 +1,135 @@
+.freelancer-home {
+    background-color: #f4f6fa;
+    min-height: 100vh;
+}
+
+.freelancer-data-top {
+    position: relative;
+    left: 75vw;
+    width: fit-content;
+    margin: 20px;
+}
+
+.freelancer-data-top span {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+}
+
+.freelancer-data-top span b {
+    color: #1e293b;
+}
+
+.freelancer-data-top span p {
+    margin: 0;
+    color: #475569;
+}
+
+.home-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.home-card {
+    width: 18%;
+    padding: 3vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: #ffffff;
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.home-card h4 {
+    font-size: 1.2rem;
+    color: #1e293b;
+    font-weight: 500;
+}
+
+.home-card p {
+    color: #64748b;
+}
+
+.home-card button {
+    background-color: transparent;
+    color: #f97316;
+    border: 1.5px solid #f97316;
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    width: 85%;
+    border-radius: 0.4rem;
+    transition: all 0.3s ease;
+}
+
+.home-card button:hover {
+    background-color: #f97316;
+    color: #fff0f5;
+    border: 1.5px solid #f97316;
+}
+
+.freelancer-details {
+    margin-top: 5vh;
+    width: 60%;
+    min-height: 35vh;
+    margin-left: 5vw;
+    padding: 2vh 2vw 3vh 2vw;
+
+    background: #ffffff;
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.freelancer-details-data span h4 {
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    color: #1e293b;
+}
+
+.freelancer-details-data span p {
+    font-size: 0.8rem;
+    color: #475569;
+}
+
+.freelancer-details-data .skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.freelancer-details-data .skill {
+    font-weight: 400;
+    font-size: 0.8rem;
+    border: 1px solid #0ea5e9;
+    color: #0ea5e9;
+    padding: 7px 12px;
+    border-radius: 1rem;
+    background-color: #eef2ff;
+}
+
+.freelancer-details-update h4 {
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    color: #1e293b;
+}
+
+.freelancer-details-update input,
+.freelancer-details-update textarea {
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.4rem;
+    padding: 10px;
+    margin-top: 1vh;
+    font-size: 0.9rem;
+    color: #1e293b;
+    background-color: #f8fafc;
+}
+
+.freelancer-details-update textarea {
+    min-height: 16vh;
+}

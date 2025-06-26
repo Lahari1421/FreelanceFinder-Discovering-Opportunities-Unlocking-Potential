@@ -1,0 +1,117 @@
+.all-projects-page {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    background-color: #f9f5f0;
+}
+
+.project-filters {
+    width: 20%;
+    box-shadow: rgba(31, 41, 55, 0.24) 0px 3px 8px;
+    padding: 3vh 1.5vw;
+    height: 82vh;
+    border-radius: 0.7rem;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.project-filters h3 {
+    font-size: 1.4rem;
+    color: #1f2937;
+}
+
+.filters {
+    margin-top: 3vh;
+}
+
+.filters h5 {
+    font-size: 1.1rem;
+    color: #1f2937;
+}
+
+.filter-options {
+    font-size: 0.9rem;
+    color: #374151;
+}
+
+.projects-list {
+    width: 75%;
+    height: 82vh;
+    overflow-y: scroll;
+    box-shadow: rgba(31, 41, 55, 0.24) 0px 3px 8px;
+    border-radius: 0.7rem;
+    padding: 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.projects-list hr {
+    color: #d1d5db;
+}
+
+.projects-list h3 {
+    color: #1f2937;
+}
+
+.listed-project:hover {
+    background-color: #f3f4f6;
+    cursor: pointer;
+}
+
+.listed-project h5 {
+    font-size: 0.9rem;
+    color: #1f2937;
+}
+
+.listed-project p {
+    font-size: 0.9rem;
+    color: #4b5563;
+}
+
+.listed-project-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.listed-project-head h3 {
+    width: 80%;
+    margin: 0;
+    font-size: 1.4rem;
+    color: #3b82f6;
+}
+
+.listed-project-head p {
+    margin: 0;
+    color: #6b7280;
+}
+
+.listed-project .skills {
+    display: flex;
+    gap: 10px;
+}
+
+.listed-project .skills h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #fed7aa;
+    border: 1px solid #fed7aa;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    background-color: #fff7ed;
+}
+
+.listed-project .bids-data {
+    display: flex;
+    gap: 30px;
+    margin-top: 3vh;
+}
+
+.listed-project .bids-data p {
+    color: #4b5563;
+}
+
+.listed-project .bids-data h6 {
+    color: #3b82f6;
+}
